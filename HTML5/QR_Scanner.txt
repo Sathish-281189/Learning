@@ -1,0 +1,18 @@
+https://stackoverflow.com/questions/11625415/how-to-create-a-qr-code-reader-in-a-html5-website
+https://webqr.com/index.html - Working
+
+http://a.kabachnik.info/reading-barcodes-with-built-in-camera-with-html5.html
+
+http://www.jqueryscript.net/other/jQuery-Plugin-For-BarCode-QR-Code-Reader-WebCodeCam.html
+
+-------------------
+
+https://www.html5rocks.com/en/tutorials/getusermedia/intro/
+
+--------------------
+
+
+Portrait mode
+
+https://stackoverflow.com/questions/3501510/blocking-device-rotation-on-mobile-web-pages
+https://stackoverflow.com/questions/1207008/how-do-i-lock-the-orientation-to-portrait-mode-in-a-iphone-web-application

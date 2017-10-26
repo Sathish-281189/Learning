@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+	<title>HTML5</title>
+	<style>
+		html, body {
+			margin:0; padding: 0;
+		}
+		.container {
+			height: 100%;
+		}
+		li {
+			float: left;
+			border-bottom: 1px solid #ddd;
+			padding: 5px;
+			width: 33%;
+			list-style: none;
+		}
+		ul li:last-child {
+			width: auto;
+			overflow: hidden;
+			float: none;
+		}
+		th {
+			text-align:left;
+		}
+		* {
+			box-sizing: border-box;
+		}
+		.container div {
+			width: 700px;
+			height: 500px;
+		}
+		#div1_result {
+			background : blue;
+		}
+		#div2_result {
+			background : red;
+		}
+	</style>
+</head>
+<body>
+	<!-- <div class="container">
+	<h2>Hi!!!</h2>
+	<div style="width:266px">
+	<ul style="display: inline-block; padding: 0px; width: 100%; margin: 0;">
+	<li>aaaaaaaa</li>
+	<li>bbbbbbbb</li>
+	<li>cccccccc</li>
+	<li>dddddddd</li>
+	<li>eeeeeeee</li>
+	<li>ffffffff</li>
+	<li>gggggggg</li>
+	</ul>
+	</div>
+	<div style="padding-top:15px;">
+	<table style="width:100%;">
+	<tr>
+	<th width="25%">South Coast Toyota</th>
+	<th width="25%">Contact</th>
+	<th width="50%">Service And Certifications</th>
+	</tr>
+	<tr>
+	<td>asdasd<br>asdasdasd</td>
+	<td>989898<br>787787877</td>
+	<td>
+	<ul style="padding: 0px; margin: 0;">
+	<li>aaaaaaaa</li>
+	<li>bbbbbbbb</li>
+	<li>cccccccc</li>
+	<li>dddddddd</li>
+	<li>eeeeeeee</li>
+	<li>ffffffff</li>
+	<li>gggggggg</li>
+	<li>hhhhhhhh</li>
+	</ul>
+	</td>
+	</tr>
+	</table>
+	</div>
+	</div> -->
+	<div class="container">
+		<div id="div1">
+			<div id="div1_result"></div>
+		</div>
+		<div id="div2">
+			<div id="div2_result"></div>
+		</div>
+	</div>
+	</body>
+	<script>
+		//var regexp = /^[a-zA-ZÀ-ÿ]+$/;
+		var regexp = /^[a-zA-Z0-9àâäèéêëîïôœùûüÿçÀÂÄÈÉÊËÎÏÔŒÙÛÜŸÇ\s]+$/;
+		console.log("-----------------"+regexp);
+		console.log(regexp.test("hiâä"));
+	</script>
+	</html>
